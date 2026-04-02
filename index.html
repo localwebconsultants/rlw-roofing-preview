@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="24-Hour Emergency Roofing in Chester. 5.0 star rated roofing contractor. Expert slate roofing, repairs, and re-roofing services. Call now: 07708 587088">
+    <title>R L W Roofing Chester - 24-Hour Emergency Roofing Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes pulse-slow {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        .pulse-slow {
+            animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        
+        .gradient-overlay {
+            background: linear-gradient(135deg, rgba(220, 38, 38, 0.95) 0%, rgba(185, 28, 28, 0.95) 100%);
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .floating-cta {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 50;
+            box-shadow: 0 10px 40px rgba(220, 38, 38, 0.4);
+        }
+
+        @media (min-width: 768px) {
+            .floating-cta {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <!-- Emergency Banner -->
+    <div class="bg-red-600 text-white py-2 px-4 text-center sticky top-0 z-50 pulse-slow">
+        <div class="container mx-auto flex items-center justify-center gap-2 text-sm md:text-base">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span class="font-semibold">24/7 EMERGENCY ROOFING SERVICE</span>
+            <span class="hidden md:inline">|</span>
+            <a href="tel:07708587088" class="hover:underline font-bold hidden md:inline">Call Now: 07708 587088</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-8 z-40">
+        <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+            <div>
+                <h1 class="text-2xl md:text-3xl font-bold text-gray-800">R L W Roofing</h1>
+                <p class="text-sm text-gray-600">Chester's Trusted Roofing Experts</p>
+            </div>
+            <div class="hidden md:block">
+                <a href="tel:07708587088" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center gap-2 transition">
+                    <i class="fas fa-phone"></i>
+                    <span>07708 587088</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-gray-800 to-gray-900 text-white py-20 md:py-32">
+        <div class="absolute inset-0 opacity-20">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxLTEuNzktNC00LTRzLTQgMS43OS00IDQgMS43OSA0IDQgNCA0LTEuNzkgNC00em0wLTEwYzAtMi4yMS0xLjc5LTQtNC00cy00IDEuNzktNCA0IDEuNzkgNCA0IDQgNC0xLjc5IDQtNHptMC0xMGMwLTIuMjEtMS43OS00LTQtNHMtNCAxLjc5LTQgNCAxLjc5IDQgNCA0IDQtMS43OSA0LTR6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-50"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="inline-block bg-red-600 text-white px-4 py-2 rounded-full mb-6">
+                    <span class="flex items-center gap-2 text-sm font-semibold">
+                        <i class="fas fa-clock"></i>
+                        <span>OPEN 24 HOURS A DAY</span>
+                    </span>
+                </div>
+                
+                <h2 class="text-4xl md:text-6xl font-bold mb-6">
+                    24-Hour Emergency<br>Roofing in Chester
+                </h2>
+                
+                <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                    Expert roofing repairs, maintenance, and installations.<br class="hidden md:block">
+                    Same-day emergency response. 5.0⭐ rated service.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="tel:07708587088" class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-bold flex items-center gap-3 transition shadow-lg w-full sm:w-auto justify-center">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>Call Now: 07708 587088</span>
+                    </a>
+                    <a href="#quote" class="bg-white hover:bg-gray-100 text-gray-800 px-8 py-4 rounded-lg text-lg font-semibold flex items-center gap-3 transition w-full sm:w-auto justify-center">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Get a Free Quote</span>
+                    </a>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="flex flex-wrap justify-center gap-8 mt-12 text-gray-300">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-star text-yellow-400 text-2xl"></i>
+                        <span class="text-lg"><strong class="text-white">5.0</strong> Star Rating</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-clock text-red-400 text-2xl"></i>
+                        <span class="text-lg"><strong class="text-white">24/7</strong> Emergency Service</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-map-marker-alt text-blue-400 text-2xl"></i>
+                        <span class="text-lg"><strong class="text-white">Local</strong> Chester Company</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Our Roofing Services</h2>
+                <p class="text-xl text-gray-600">Professional roofing solutions for homes and businesses across Chester</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-3xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Emergency Repairs</h3>
+                    <p class="text-gray-600 mb-4">24/7 emergency roof repair service. Leaks, storm damage, and urgent repairs handled immediately.</p>
+                    <a href="tel:07708587088" class="text-red-600 hover:text-red-700 font-semibold flex items-center gap-2">
+                        Call for Emergency <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-layer-group text-3xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Slate Roofing</h3>
+                    <p class="text-gray-600 mb-4">Expert slate roof installation, repairs, and maintenance. Traditional craftsmanship meets modern techniques.</p>
+                    <a href="#quote" class="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-2">
+                        Get a Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-home text-3xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Re-Roofing</h3>
+                    <p class="text-gray-600 mb-4">Complete roof replacements for residential and commercial properties. Quality materials, expert installation.</p>
+                    <a href="#quote" class="text-green-600 hover:text-green-700 font-semibold flex items-center gap-2">
+                        Get a Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-tint text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Leak Detection & Repair</h3>
+                    <p class="text-gray-600 mb-4">Professional leak detection and repair services. Stop water damage before it becomes costly.</p>
+                    <a href="tel:07708587088" class="text-purple-600 hover:text-purple-700 font-semibold flex items-center gap-2">
+                        Call Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-wrench text-3xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Roof Maintenance</h3>
+                    <p class="text-gray-600 mb-4">Regular maintenance to extend your roof's lifespan. Inspections, cleaning, and preventive repairs.</p>
+                    <a href="#quote" class="text-yellow-600 hover:text-yellow-700 font-semibold flex items-center gap-2">
+                        Schedule Service <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white p-8 rounded-xl shadow-md">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-cloud-rain text-3xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Guttering Services</h3>
+                    <p class="text-gray-600 mb-4">Gutter installation, repairs, and cleaning. Keep water flowing away from your property.</p>
+                    <a href="#quote" class="text-indigo-600 hover:text-indigo-700 font-semibold flex items-center gap-2">
+                        Get a Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Why Choose R L W Roofing?</h2>
+                <p class="text-xl text-gray-600">Chester's most trusted roofing contractor</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-star text-4xl text-yellow-500"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">5.0 Star Rated</h3>
+                    <p class="text-gray-600">Perfect rating from satisfied customers. Quality you can trust.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-clock text-4xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">24/7 Availability</h3>
+                    <p class="text-gray-600">Emergency service available around the clock. We're here when you need us.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-map-marker-alt text-4xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Local Chester Company</h3>
+                    <p class="text-gray-600">Based in Blacon, serving all of Chester and surrounding areas.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-4xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Expert Craftsmanship</h3>
+                    <p class="text-gray-600">Skilled team with years of roofing experience. Quality workmanship guaranteed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">What Our Customers Say</h2>
+                <p class="text-xl text-gray-600">5.0⭐ rated roofing service across Chester</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center gap-1 text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Fantastic service! Called them out for an emergency leak and they were here within the hour. Professional, efficient, and the repair was perfect. Highly recommended!"</p>
+                    <p class="font-semibold text-gray-800">— Sarah M., Chester</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center gap-1 text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Had my entire slate roof replaced. The quality of work is outstanding and the team were polite and tidy. Great value for money. Very happy customer!"</p>
+                    <p class="font-semibold text-gray-800">— David T., Blacon</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md">
+                    <div class="flex items-center gap-1 text-yellow-400 mb-4">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Reliable local roofer. Fixed storm damage to our roof quickly and professionally. Fair pricing and excellent communication throughout. Will definitely use again."</p>
+                    <p class="font-semibold text-gray-800">— Emma R., Chester</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 bg-gradient-to-br from-red-600 to-red-700 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <i class="fas fa-phone-volume text-6xl mb-6 opacity-90"></i>
+                <h2 class="text-3xl md:text-5xl font-bold mb-6">Need Emergency Roofing?</h2>
+                <p class="text-xl md:text-2xl text-red-100 mb-8">
+                    We're available 24 hours a day, 7 days a week for emergency roof repairs in Chester.
+                </p>
+                <a href="tel:07708587088" class="inline-block bg-white hover:bg-gray-100 text-red-600 px-10 py-5 rounded-lg text-xl font-bold transition shadow-lg">
+                    <i class="fas fa-phone-alt mr-3"></i>
+                    Call Now: 07708 587088
+                </a>
+                <p class="mt-6 text-red-100">
+                    <i class="fas fa-clock mr-2"></i>
+                    Same-day emergency response available
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form -->
+    <section id="quote" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-5xl font-bold text-gray-800 mb-4">Get a Free Quote</h2>
+                    <p class="text-xl text-gray-600">Tell us about your roofing needs and we'll get back to you quickly</p>
+                </div>
+                
+                <form class="bg-gray-50 p-8 rounded-xl shadow-lg">
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-2">Name *</label>
+                            <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 font-semibold mb-2">Phone *</label>
+                            <input type="tel" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                        <input type="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-semibold mb-2">Service Required *</label>
+                        <select required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
+                            <option value="">Select a service...</option>
+                            <option>Emergency Repair</option>
+                            <option>Slate Roofing</option>
+                            <option>Re-Roofing</option>
+                            <option>Leak Repair</option>
+                            <option>Maintenance</option>
+                            <option>Guttering</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-semibold mb-2">Message</label>
+                        <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Tell us about your roofing needs..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-bold transition flex items-center justify-center gap-3">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>Request Free Quote</span>
+                    </button>
+                    
+                    <p class="text-sm text-gray-500 mt-4 text-center">
+                        We'll respond to your enquiry as soon as possible
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-4">R L W Roofing</h3>
+                    <p class="mb-4">Professional roofing services in Chester. Available 24/7 for emergency repairs.</p>
+                    <div class="flex items-center gap-1 text-yellow-400 mb-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="text-white ml-2">5.0 Rating</span>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-white transition">Emergency Repairs</a></li>
+                        <li><a href="#" class="hover:text-white transition">Slate Roofing</a></li>
+                        <li><a href="#" class="hover:text-white transition">Re-Roofing</a></li>
+                        <li><a href="#" class="hover:text-white transition">Leak Detection</a></li>
+                        <li><a href="#" class="hover:text-white transition">Maintenance</a></li>
+                        <li><a href="#" class="hover:text-white transition">Guttering</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">Contact Us</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-phone text-red-500 mt-1"></i>
+                            <div>
+                                <a href="tel:07708587088" class="hover:text-white transition font-semibold">07708 587088</a>
+                                <p class="text-sm">24/7 Emergency Line</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-red-500 mt-1"></i>
+                            <div>
+                                <p>8 Highfield Rd, Blacon</p>
+                                <p>Chester CH1 5AY</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i class="fas fa-clock text-red-500 mt-1"></i>
+                            <p class="font-semibold">Open 24 Hours</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2026 R L W Roofing Chester. All rights reserved.</p>
+                <p class="mt-2 text-gray-500">Website preview created by <a href="#" class="text-red-400 hover:text-red-300">Local Web Consultants</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile CTA -->
+    <a href="tel:07708587088" class="floating-cta bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded-full font-bold flex items-center gap-2 transition">
+        <i class="fas fa-phone-alt"></i>
+        <span>Call Now</span>
+    </a>
+
+</body>
+</html>
